@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青年創業貸款申請表</title>
+    <link rel="icon" href="https://i.imgur.com/aGlsnZ9.png">
+</head>
+<body>
+    <h1>青年創業及啟動金貸款創業貸款申請表</h1>
+    <h4>(申請金額 100 萬元以下適用)</h4>
+    <form action="file:///C:/Users/admin/Desktop/test.html" method="post">
+        <table>
+            <tr>
+                <th>一、申請人資料</th>
+                <hr/>
+            </tr>
+            <tr>
+                <td>
+                     <label>一、申請人類別:</label>
+                </td>
+                <td>
+                     <input type="radio" id="business" name="category" value="business">
+                     <label for="business">事業體</label>
+                     <input type="radio" id="principal" name="category" value="principal">
+                     <label for="principal">事業體之負責人</label>  
+                </td>
+                <tr>
+                    <td>
+                        <label for="person">二、負責人:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="person" name="person" minlength="2" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="entity">三、事業體名稱:</label> 
+                    </td>
+                    <td>
+                        <select name="entity" id="entity" required>
+                            <option value="CoLtd">股份有限公司</option>
+                            <option value="limitedCompany">有限公司</option>
+                            <option value="partner">合夥</option>
+                            <option value="solo">獨資</option>
+                            <option value="other">其他</option>
+                        </select>    
+                    </td>
+                </tr>
+           </tr>
+            
+        </table>
+
+
+        <table>
+            <tr>
+                <th>二、申請人之基本資料</th>
+                <td> (如以事業體申請，請填寫負責人資料) </td>
+                <hr/>
+            </tr>
+            <tr>
+                <td>
+                    <label for="identity">身分證字號：</label>
+                </td>
+                <td>
+                    <input type="text" id="identity" name="identity" minlength="10" size="10" required>
+                </td>
+                <td>
+                    <label for="birthday">出生日期：</label>
+                </td>
+                <td>
+                    <input type="date" id="birthday" name="birthday" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">連絡電話：</label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" name="phone" required>
+                </td>
+                <td>
+                    <label for="email">電子郵件：</label>
+                </td>
+                <td>
+                    <input type="emial" id="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="edu">教育程度：</label> 
+                </td>
+                <td>
+                    <input type="radio" id="edu1" name="use" value="edu1" required>
+                    <label for="edu1">國中/小</label>
+                    <input type="radio" id="edu2" name="use" value="edu2">
+                    <label for="edu2">高中職</label>
+                    <input type="radio" id="edu3" name="use" value="edu3">
+                    <label for="edu3">專科(含)以下</label>
+                    <input type="radio" id="edu4" name="use" value="edu4">
+                    <label for="edu4">大學</label>
+                    <input type="radio" id="edu5" name="use" value="edu5">
+                    <label for="edu5">碩士以上
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="residence">戶籍地址：</label> 
+                </td>
+                <td>
+                    <input type="text" id="residence" name="residence" size="50" required>
+                </td>
+                <td>
+                    <label for="mailing">通訊地址：</label> 
+                </td>
+                <td>
+                    <input type="radio" id="mailing" name="residence" value="residence">
+                    <label>同戶籍</label>
+                    <input type="text" id="mailing" name="mailing" size="50" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="experience">經歷：</label> 
+                </td>
+                <td>
+                    <textarea  name="experience"  id="experience"  placeholder="序號/服務處所名稱/職稱/年資/服務處所名稱/職稱/年資" rows="10" cols="50"></textarea>
+                </td>
+                <td>
+                    <label for="course">輔導課程：</label> 
+                </td>
+                <td>
+                    <textarea  name="course"  id="course"  placeholder="序號/課程內容/授課單位/時數/課程內容/授課單位/時數" rows="10" cols="50"></textarea>
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+    
+
+   
+
+    
+</body>
+</html>
